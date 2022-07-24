@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 112983655837,"dur": 1777066.9, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 112983656914.3,"dur": 217685.9, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 112983878145.7,"dur": 1495898.2, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "07/23/2022 23:31:20",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.6f1\\Editor\\Unity.exe\" -projectpath \"C:\\Users\\msi\\Desktop\\2022 \uc18c\uc6e8\uacbd\\UnityARLearnig\\ARBookLearning\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-hrJHNEDE8HAtGblH2NvkT -hubSessionId c49b2e60-0a27-11ed-95cd-352c40082600 -accessToken 1bAf9XkF_I8zOD8duDSQq62s4QoBtmYvtdkER18VmDQ00df",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.6f1\\Editor\\Unity.exe -projectpath C:\\Users\\msi\\Desktop\\2022 \uc18c\uc6e8\uacbd\\UnityARLearnig\\ARBookLearning -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-hrJHNEDE8HAtGblH2NvkT -hubSessionId c49b2e60-0a27-11ed-95cd-352c40082600 -accessToken 1bAf9XkF_I8zOD8duDSQq62s4QoBtmYvtdkER18VmDQ00df",
+"meta_user_name": "msi",
+"meta_os_version": "Microsoft Windows NT 10.0.19041.0",
+"meta_cpu_count": "8"
+}
